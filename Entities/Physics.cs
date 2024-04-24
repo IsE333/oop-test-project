@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
-    public class Mathemathics : Course
+    public class Physics : Course
     {
-        public Mathemathics() : base("Matematik", 4)
+        public Physics() : base("Fizik", 3)
         {
             SetGrades();
             GetAverage();
